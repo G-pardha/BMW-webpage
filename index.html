@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW...</title>
+</head>
+<body>
+    <video autoplay loop muted plays-inline class="back-video">
+        <source src="images/bgvid2 - Made with Clipchamp.mp4" type="video/mp4">
+    </video>
+    <header>
+        <div class="header2">
+           
+            <nav>
+                <div class="brand">
+                    <img src="images/logo.png" alt="" class="src">
+                </div>
+                <ul>
+                    <li><a href="https://www.bmw.in/en/index.html" target="_blaNK">Home</a></li>
+                    <li><a href="https://www.bmw.in/en/footer/metanavigation/contact.html" target="_blaNK">Enquiry</a></li>
+                    <li><a href="#" id="types">Types</a></li>
+                    <li><a href="https://www.bmw.in/en/footer/metanavigation/privacy-policy.html" target="_blaNK">Privacy policy</a></li>
+                    <li><a href="https://www.bmw.in/en/fastlane/dealer-locator.html" target="_blaNK">Contact</a></li>
+                </ul>
+                <div class="station">
+                    <button><a href="https://www.bmw.in/en/fastlane/dealer-locator.html" target="_blank">Find Stores</a></button>
+                </div>
+            </nav>
+            <section><div class="content">
+                <h1>Straight Roads <br>For Fast Cars</h1>
+                <p>BMW is renowned for its ultimate driving machines. From the M-badged sports cars to the eco-friendly i8, they offer speed, power, and exhilarating performance. Additionally, some underrated BMWs, not wearing the M badge, also pack a punch..</p>
+                <button><a href="http://www.bmw.in"target="_main">learn more</button></a>
+            </div>
+        </section>
+        <footer id="footer">
+            <li><a href="https://www.hotcars.com/most-wanted-classic-bmws/" target="_blank">Classy</a> </li>
+            <li><a href="https://www.topspeed.com/10-fastest-bmw-sports-cars-ranked/" target="_blaNK">Speed</a></li>
+            <li><a href="https://www.topgear.com/car-news/top-gear-advice/here-are-10-greatest-bmws-ever-built" target="_blank" >Unique</a></li>
+        </footer>
+        </div>
+    </header>
+
+    <script>
+        const types = document.getElementById("types");
+        const footer = document.getElementById("footer");
+
+        types.addEventListener('click',()=>{
+            footer.classList.toggle("footers");
+            types.classList.toggle("clicks");
+        });
+    </script>
+</body>
+</html>
